@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTM6302 Persistent Preferences</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section class="preferences">
+            <h2>Color</h2>
+            <label for="colorSelect">Choose a color:</label>
+            <select id="colorSelect">
+                <option value="#00cced">00cced - Blue</option>
+                <option value="#00ff00">00ff00 - Green</option>
+                <option value="#4f5cd6">4f5cd6 - Purple</option>
+                <option value="#ff8700">ff8700 - Yellow</option>
+                <option value="#ff0000">ff0000 - Red</option>
+                <option value="#000000">000000 - Black</option>
+                <option value="#ffffff">ffffff - White</option>
+                <option value="#ff69b4">ff69b4 - Pink</option>
+                <option value="#8a2be2">8a2be2 - BlueViolet</option>
+            </select>
+            <h2>Font Style</h2>
+            <label for="fontSelect">Choose a font style:</label>
+            <select id="fontSelect">
+                <option value="serif">Times New Roman (Serif)</option>
+                <option value="sans-serif">Helvetica (Sans Serif)</option>
+                <option value="monospace">Courier New (Monospace)</option>
+                <option value="cursive">Comic Sans MS (Cursive)</option>
+                <option value="fantasy">Impact (Fantasy)</option>
+                <option value="Georgia">Georgia (Serif)</option>
+                <option value="Verdana">Verdana (Sans Serif)</option>
+            </select>
+            <h2>Theme</h2>
+            <label for="themeSelect">Choose a theme:</label>
+            <select id="themeSelect">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+                <option value="blue">Blue</option>
+            </select>
+        </section>
+        <section class="preferences">
+            <h2>Preferences</h2>
+            <div id="colorDisplay"></div>
+            <p id="colorName"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
